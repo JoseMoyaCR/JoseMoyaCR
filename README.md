@@ -1,3 +1,12 @@
+<picture>
+  <source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JoseMoyaCR/JoseMoyaCR/main/assets/rpi-narrow-dark.svg">
+  <source media="(max-width: 700px)" srcset="https://raw.githubusercontent.com/JoseMoyaCR/JoseMoyaCR/main/assets/rpi-narrow-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JoseMoyaCR/JoseMoyaCR/main/assets/rpi-wide-dark.svg">
+  <img alt="Animated Raspberry Pi terminal: the GPIO header maps my stack (C#/.NET, SQL Server, OnBase, VLM/OCR, Ollama, Python, Java, AWS GPU, Arduino, micro:bit), then quality-gate stats, a confidence/abstention plot and open_to_work=active." src="https://raw.githubusercontent.com/JoseMoyaCR/JoseMoyaCR/main/assets/rpi-wide-light.svg">
+</picture>
+
+<sub>GPIO pins → my stack · bar → share of document requests my quality gate and cache resolve without calling the model (production telemetry) · scatter → how the platform abstains on low-confidence extractions (synthetic data, real policy) · <a href="https://github.com/JoseMoyaCR/JoseMoyaCR/blob/main/scripts/gen_profile_svg.py">generated with Python</a></sub>
+
 ## Hi, I'm José 👋
 
 Senior Full Stack Engineer, Tech Lead, and AI Architect with 10+ years building
@@ -34,13 +43,13 @@ every published value.
 
 ### Stack I reach for
 
-**Backend:** C#, .NET 10 / .NET Core, ASP.NET MVC, Java, Spring Boot, REST APIs, Dapper, Entity Framework
-**AI & document intelligence:** VLM integration, OCR / IDP / ADE, self-hosted serving (Ollama), prompt versioning, inference telemetry, quality gating, human-in-the-loop design
-**Data:** SQL Server, T-SQL, query optimization, telemetry schema design
-**Cloud & infra:** AWS EC2 (GPU g6 / NVIDIA L4), VPC, CUDA, Linux (Ubuntu Server)
-**Frontend:** JavaScript, TypeScript, jQuery, Kendo UI, Bootstrap
-**Automation & ECM:** OnBase Workflow (Certified), UiPath, SignalR, Digital Signature (BCCR)
-**Practices:** Scrum (CSM), code review, regression & mutation testing, distributed teams
+- **Backend:** C#, .NET 10 / .NET Core, ASP.NET MVC, Java, Spring Boot, REST APIs, Dapper, Entity Framework
+- **AI & document intelligence:** VLM integration, OCR / IDP / ADE, self-hosted serving (Ollama), prompt versioning, inference telemetry, quality gating, human-in-the-loop design
+- **Data:** SQL Server, T-SQL, query optimization, telemetry schema design
+- **Cloud & infra:** AWS EC2 (GPU g6 / NVIDIA L4), VPC, CUDA, Linux (Ubuntu Server)
+- **Frontend:** JavaScript, TypeScript, jQuery, Kendo UI, Bootstrap
+- **Automation & ECM:** OnBase Workflow (Certified), UiPath, SignalR, Digital Signature (BCCR)
+- **Practices:** Scrum (CSM), code review, regression & mutation testing, distributed teams
 
 ### Currently exploring
 
