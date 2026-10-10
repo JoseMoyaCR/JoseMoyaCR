@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 980" width="400" height="980" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1000" width="400" height="1000" role="img" aria-labelledby="t d">
 <title id="t">jose@raspberrypi: pinout --engineer jahm</title>
 <desc id="d">Animated terminal on a Raspberry Pi: GPIO pins light up with José Hernández Moya's stack, then quality-gate stats from production telemetry, a synthetic confidence/abstention plot and open_to_work = active.</desc>
 <style>
@@ -17,8 +17,8 @@ text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberatio
 @media (prefers-reduced-motion:reduce){.f,.cv,.gr,.bl,.bc{animation:none;opacity:1;transform:none}.cv{display:none}}
 
 </style>
-<defs><clipPath id="in"><rect x="1" y="1" width="398" height="978" rx="11"/></clipPath></defs>
-<rect x="0.5" y="0.5" width="399" height="979" rx="12" fill="#ffffff"/>
+<defs><clipPath id="in"><rect x="1" y="1" width="398" height="998" rx="11"/></clipPath></defs>
+<rect x="0.5" y="0.5" width="399" height="999" rx="12" fill="#ffffff"/>
 <g clip-path="url(#in)">
 <path d="M12.5 .5h375a12 12 0 0 1 12 12v16H.5v-16a12 12 0 0 1 12-12z" fill="#f6f8fa"/>
 <circle cx="18" cy="14" r="5" fill="#ff5f57"/><circle cx="34" cy="14" r="5" fill="#febc2e"/><circle cx="50" cy="14" r="5" fill="#28c840"/>
@@ -51,92 +51,93 @@ text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberatio
 <text x="40" y="250" fill="#e6edf3">Raspberry Pi · Model JAHM v10.0</text>
 <text x="40" y="266" fill="#e6edf3" opacity=".6">© 2014–2026 JoseMoyaCR · CR/MX</text>
 </g>
-<circle cx="76" cy="90" r="6.5" fill="none" stroke="#3fb950" stroke-width="2" class="f" style="animation-delay:1.60s"/><circle cx="90" cy="90" r="6.5" fill="none" stroke="#3fb950" stroke-width="2" class="f" style="animation-delay:1.90s"/><circle cx="104" cy="90" r="6.5" fill="none" stroke="#a371f7" stroke-width="2" class="f" style="animation-delay:2.20s"/><circle cx="132" cy="90" r="6.5" fill="none" stroke="#a371f7" stroke-width="2" class="f" style="animation-delay:2.50s"/><circle cx="146" cy="90" r="6.5" fill="none" stroke="#a371f7" stroke-width="2" class="f" style="animation-delay:2.80s"/><circle cx="160" cy="90" r="6.5" fill="none" stroke="#58a6ff" stroke-width="2" class="f" style="animation-delay:3.10s"/><circle cx="188" cy="90" r="6.5" fill="none" stroke="#3fb950" stroke-width="2" class="f" style="animation-delay:3.40s"/><circle cx="202" cy="90" r="6.5" fill="none" stroke="#58a6ff" stroke-width="2" class="f" style="animation-delay:3.70s"/><circle cx="216" cy="90" r="6.5" fill="none" stroke="#f0883e" stroke-width="2" class="f" style="animation-delay:4.00s"/><circle cx="258" cy="90" r="6.5" fill="none" stroke="#f0883e" stroke-width="2" class="f" style="animation-delay:4.30s"/>
+<circle cx="76" cy="90" r="6.5" fill="none" stroke="#3fb950" stroke-width="2" class="f" style="animation-delay:1.60s"/><circle cx="90" cy="90" r="6.5" fill="none" stroke="#3fb950" stroke-width="2" class="f" style="animation-delay:1.90s"/><circle cx="104" cy="90" r="6.5" fill="none" stroke="#a371f7" stroke-width="2" class="f" style="animation-delay:2.20s"/><circle cx="132" cy="90" r="6.5" fill="none" stroke="#a371f7" stroke-width="2" class="f" style="animation-delay:2.50s"/><circle cx="146" cy="90" r="6.5" fill="none" stroke="#a371f7" stroke-width="2" class="f" style="animation-delay:2.80s"/><circle cx="160" cy="90" r="6.5" fill="none" stroke="#58a6ff" stroke-width="2" class="f" style="animation-delay:3.10s"/><circle cx="188" cy="90" r="6.5" fill="none" stroke="#3fb950" stroke-width="2" class="f" style="animation-delay:3.40s"/><circle cx="202" cy="90" r="6.5" fill="none" stroke="#58a6ff" stroke-width="2" class="f" style="animation-delay:3.70s"/><circle cx="216" cy="90" r="6.5" fill="none" stroke="#f0883e" stroke-width="2" class="f" style="animation-delay:4.00s"/><circle cx="258" cy="90" r="6.5" fill="none" stroke="#f0883e" stroke-width="2" class="f" style="animation-delay:4.30s"/><circle cx="272" cy="90" r="6.5" fill="none" stroke="#a371f7" stroke-width="2" class="f" style="animation-delay:4.60s"/>
 </g>
 <g class="f" style="animation-delay:1.60s"><text x="20" y="334" fill="#59636e" xml:space="preserve">GPIO2  (3)</text><circle cx="108" cy="330" r="4" fill="#1a7f37"/><text x="118" y="334" fill="#1a7f37">C# · .NET 10 · Dapper</text></g>
 <g class="f" style="animation-delay:1.90s"><text x="20" y="354" fill="#59636e" xml:space="preserve">GPIO3  (5)</text><circle cx="108" cy="350" r="4" fill="#1a7f37"/><text x="118" y="354" fill="#1a7f37">SQL Server · T-SQL</text></g>
 <g class="f" style="animation-delay:2.20s"><text x="20" y="374" fill="#59636e" xml:space="preserve">GPIO4  (7)</text><circle cx="108" cy="370" r="4" fill="#8250df"/><text x="118" y="374" fill="#8250df">OnBase Workflow (cert.)</text></g>
 <g class="f" style="animation-delay:2.50s"><text x="20" y="394" fill="#59636e" xml:space="preserve">GPIO17 (11)</text><circle cx="108" cy="390" r="4" fill="#8250df"/><text x="118" y="394" fill="#8250df">VLM · OCR / IDP</text></g>
-<g class="f" style="animation-delay:2.80s"><text x="20" y="414" fill="#59636e" xml:space="preserve">GPIO27 (13)</text><circle cx="108" cy="410" r="4" fill="#8250df"/><text x="118" y="414" fill="#8250df">Ollama · telemetry</text></g>
+<g class="f" style="animation-delay:2.80s"><text x="20" y="414" fill="#59636e" xml:space="preserve">GPIO27 (13)</text><circle cx="108" cy="410" r="4" fill="#8250df"/><text x="118" y="414" fill="#8250df">vLLM · telemetry</text></g>
 <g class="f" style="animation-delay:3.10s"><text x="20" y="434" fill="#59636e" xml:space="preserve">GPIO22 (15)</text><circle cx="108" cy="430" r="4" fill="#0969da"/><text x="118" y="434" fill="#0969da">Python · data analysis</text></g>
 <g class="f" style="animation-delay:3.40s"><text x="20" y="454" fill="#59636e" xml:space="preserve">GPIO10 (19)</text><circle cx="108" cy="450" r="4" fill="#1a7f37"/><text x="118" y="454" fill="#1a7f37">Java · Spring Boot</text></g>
 <g class="f" style="animation-delay:3.70s"><text x="20" y="474" fill="#59636e" xml:space="preserve">GPIO9  (21)</text><circle cx="108" cy="470" r="4" fill="#0969da"/><text x="118" y="474" fill="#0969da">AWS GPU · CUDA · Linux</text></g>
 <g class="f" style="animation-delay:4.00s"><text x="20" y="494" fill="#59636e" xml:space="preserve">GPIO11 (23)</text><circle cx="108" cy="490" r="4" fill="#bc4c00"/><text x="118" y="494" fill="#bc4c00">Arduino · micro:bit</text></g>
 <g class="f" style="animation-delay:4.30s"><text x="20" y="514" fill="#59636e" xml:space="preserve">GPIO5  (29)</text><circle cx="108" cy="510" r="4" fill="#bc4c00"/><text x="118" y="514" fill="#bc4c00">Embedded Systems Tech</text></g>
-<text x="14" y="548"><tspan fill="#1a7f37">jose@raspberrypi</tspan><tspan fill="#1f2328">:</tspan><tspan fill="#0969da">~</tspan><tspan fill="#1f2328"> $ python3 gate_stats.py</tspan></text>
-<rect class="cv" x="12" y="534" width="386" height="19" fill="#ffffff" style="animation-delay:5.00s"/>
+<g class="f" style="animation-delay:4.60s"><text x="20" y="534" fill="#59636e" xml:space="preserve">GPIO6  (31)</text><circle cx="108" cy="530" r="4" fill="#8250df"/><text x="118" y="534" fill="#8250df">Claude Code · Codex</text></g>
+<text x="14" y="568"><tspan fill="#1a7f37">jose@raspberrypi</tspan><tspan fill="#1f2328">:</tspan><tspan fill="#0969da">~</tspan><tspan fill="#1f2328"> $ python3 gate_stats.py</tspan></text>
+<rect class="cv" x="12" y="554" width="386" height="19" fill="#ffffff" style="animation-delay:5.00s"/>
 <g class="f" style="animation-delay:5.90s">
-<rect x="18" y="562" width="364" height="16" rx="3" fill="#eaeef2"/>
-<rect class="gr" x="18" y="562" width="364" height="16" rx="3" fill="#8250df" style="animation-delay:6s"/>
-<rect class="gr" x="18" y="562" width="145.6" height="16" rx="3" fill="#2da44e" style="animation-delay:6.3s"/>
-<text x="18" y="596" fill="#1a7f37">~40% resolved by gate + cache (no model)</text><text x="18" y="614" fill="#8250df">rest → VLM · Ollama on NVIDIA L4</text>
+<rect x="18" y="582" width="364" height="16" rx="3" fill="#eaeef2"/>
+<rect class="gr" x="18" y="582" width="364" height="16" rx="3" fill="#8250df" style="animation-delay:6s"/>
+<rect class="gr" x="18" y="582" width="145.6" height="16" rx="3" fill="#2da44e" style="animation-delay:6.3s"/>
+<text x="18" y="616" fill="#1a7f37">~40% resolved by gate + cache (no model)</text><text x="18" y="634" fill="#8250df">rest → VLM · vLLM on NVIDIA A10G</text>
 </g>
-<text x="14" y="648"><tspan fill="#1a7f37">jose@raspberrypi</tspan><tspan fill="#1f2328">:</tspan><tspan fill="#0969da">~</tspan><tspan fill="#1f2328"> $ python3 abstain.py --synthetic</tspan></text>
-<rect class="cv" x="12" y="634" width="386" height="19" fill="#ffffff" style="animation-delay:7.60s"/>
+<text x="14" y="668"><tspan fill="#1a7f37">jose@raspberrypi</tspan><tspan fill="#1f2328">:</tspan><tspan fill="#0969da">~</tspan><tspan fill="#1f2328"> $ python3 abstain.py --synthetic</tspan></text>
+<rect class="cv" x="12" y="654" width="386" height="19" fill="#ffffff" style="animation-delay:7.60s"/>
 <g class="f" style="animation-delay:8.20s">
-<rect x="46" y="668" width="153" height="112" fill="#cf222e" opacity=".08"/>
-<path d="M46 664V780H386" fill="none" stroke="#8c959f"/>
-<text x="52" y="682" fill="#cf222e">abstain</text>
-<text x="380" y="682" text-anchor="end" fill="#1a7f37">publish</text>
-<text x="386" y="796" text-anchor="end" fill="#59636e">confidence →</text>
-<text transform="translate(36 780) rotate(-90)" fill="#59636e">accuracy →</text>
+<rect x="46" y="688" width="153" height="112" fill="#cf222e" opacity=".08"/>
+<path d="M46 684V800H386" fill="none" stroke="#8c959f"/>
+<text x="52" y="702" fill="#cf222e">abstain</text>
+<text x="380" y="702" text-anchor="end" fill="#1a7f37">publish</text>
+<text x="386" y="816" text-anchor="end" fill="#59636e">confidence →</text>
+<text transform="translate(36 800) rotate(-90)" fill="#59636e">accuracy →</text>
 </g>
-<circle cx="163.1" cy="744.6" r="3.2" fill="#cf222e" class="f" style="animation-delay:8.40s"/>
-<circle cx="267.6" cy="722.9" r="3.2" fill="#1a7f37" class="f" style="animation-delay:8.44s"/>
-<circle cx="230.9" cy="722.8" r="3.2" fill="#1a7f37" class="f" style="animation-delay:8.47s"/>
-<circle cx="78.1" cy="753.7" r="3.2" fill="#cf222e" class="f" style="animation-delay:8.51s"/>
-<circle cx="71.6" cy="757.3" r="3.2" fill="#cf222e" class="f" style="animation-delay:8.54s"/>
-<circle cx="81.9" cy="765.0" r="3.2" fill="#cf222e" class="f" style="animation-delay:8.58s"/>
-<circle cx="195.3" cy="717.5" r="3.2" fill="#cf222e" class="f" style="animation-delay:8.61s"/>
-<circle cx="99.2" cy="757.1" r="3.2" fill="#cf222e" class="f" style="animation-delay:8.64s"/>
-<circle cx="260.1" cy="699.1" r="3.2" fill="#1a7f37" class="f" style="animation-delay:8.68s"/>
-<circle cx="244.0" cy="718.9" r="3.2" fill="#1a7f37" class="f" style="animation-delay:8.71s"/>
-<circle cx="371.6" cy="699.8" r="3.2" fill="#1a7f37" class="f" style="animation-delay:8.75s"/>
-<circle cx="334.0" cy="701.3" r="3.2" fill="#1a7f37" class="f" style="animation-delay:8.79s"/>
-<circle cx="105.7" cy="758.7" r="3.2" fill="#cf222e" class="f" style="animation-delay:8.82s"/>
-<circle cx="158.2" cy="726.3" r="3.2" fill="#cf222e" class="f" style="animation-delay:8.86s"/>
-<circle cx="117.4" cy="742.5" r="3.2" fill="#cf222e" class="f" style="animation-delay:8.89s"/>
-<circle cx="263.8" cy="715.0" r="3.2" fill="#1a7f37" class="f" style="animation-delay:8.93s"/>
-<circle cx="234.7" cy="730.7" r="3.2" fill="#1a7f37" class="f" style="animation-delay:8.96s"/>
-<circle cx="78.6" cy="762.4" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.00s"/>
-<circle cx="277.1" cy="710.4" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.03s"/>
-<circle cx="160.0" cy="732.6" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.07s"/>
-<circle cx="204.4" cy="730.8" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.10s"/>
-<circle cx="313.5" cy="694.1" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.13s"/>
-<circle cx="137.6" cy="738.1" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.17s"/>
-<circle cx="227.5" cy="708.7" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.21s"/>
-<circle cx="292.7" cy="710.9" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.24s"/>
-<circle cx="372.9" cy="697.4" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.28s"/>
-<circle cx="193.2" cy="720.0" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.31s"/>
-<circle cx="108.2" cy="747.3" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.35s"/>
-<circle cx="72.1" cy="750.4" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.38s"/>
-<circle cx="304.0" cy="700.0" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.42s"/>
-<circle cx="339.4" cy="699.4" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.45s"/>
-<circle cx="281.8" cy="704.4" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.49s"/>
-<circle cx="244.9" cy="716.9" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.52s"/>
-<circle cx="328.1" cy="683.6" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.55s"/>
-<circle cx="211.1" cy="718.6" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.59s"/>
-<circle cx="79.0" cy="747.8" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.62s"/>
-<circle cx="266.4" cy="696.4" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.66s"/>
-<circle cx="322.3" cy="704.2" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.70s"/>
-<circle cx="182.9" cy="725.0" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.73s"/>
-<circle cx="66.8" cy="757.6" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.77s"/>
-<circle cx="113.3" cy="757.0" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.80s"/>
-<circle cx="78.4" cy="746.0" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.84s"/>
-<circle cx="100.9" cy="756.0" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.87s"/>
-<circle cx="184.5" cy="718.7" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.91s"/>
-<circle cx="85.4" cy="753.7" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.94s"/>
-<circle cx="235.2" cy="706.7" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.98s"/>
-<g class="f" style="animation-delay:10.10s"><path d="M199 668V780" stroke="#9a6700" stroke-dasharray="4 3"/>
-<text x="203" y="794" fill="#9a6700">τ</text></g>
-<text x="20" y="826" fill="#59636e" xml:space="preserve" class="f" style="animation-delay:10.40s"># AI-first, not AI-authoritative</text>
-<text x="20" y="846" fill="#cf222e" xml:space="preserve" class="f" style="animation-delay:10.70s">conf &lt; τ    → abstain → human</text>
-<text x="20" y="866" fill="#9a6700" xml:space="preserve" class="f" style="animation-delay:11.00s">rules fail  → reject</text>
-<text x="20" y="886" fill="#1a7f37" xml:space="preserve" class="f" style="animation-delay:11.30s">else        → publish + trace</text>
-<text x="20" y="906" fill="#8250df" xml:space="preserve" class="f" style="animation-delay:11.60s">new model   → eval vs ground truth</text>
-<text x="14" y="940"><tspan fill="#1a7f37">jose@raspberrypi</tspan><tspan fill="#1f2328">:</tspan><tspan fill="#0969da">~</tspan><tspan fill="#1f2328"> $ gpioget open_to_work</tspan></text>
-<rect class="cv" x="12" y="926" width="386" height="19" fill="#ffffff" style="animation-delay:12.00s"/>
-<g class="f" style="animation-delay:13.00s"><text x="14" y="960" xml:space="preserve"><tspan fill="#1f2328">"open_to_work"=</tspan><tspan fill="#1a7f37">active</tspan><tspan fill="#59636e">   # CR · MX · remote </tspan><tspan class="bc" fill="#1f2328">█</tspan></text></g>
+<circle cx="163.1" cy="764.6" r="3.2" fill="#cf222e" class="f" style="animation-delay:8.40s"/>
+<circle cx="267.6" cy="742.9" r="3.2" fill="#1a7f37" class="f" style="animation-delay:8.44s"/>
+<circle cx="230.9" cy="742.8" r="3.2" fill="#1a7f37" class="f" style="animation-delay:8.47s"/>
+<circle cx="78.1" cy="773.7" r="3.2" fill="#cf222e" class="f" style="animation-delay:8.51s"/>
+<circle cx="71.6" cy="777.3" r="3.2" fill="#cf222e" class="f" style="animation-delay:8.54s"/>
+<circle cx="81.9" cy="785.0" r="3.2" fill="#cf222e" class="f" style="animation-delay:8.58s"/>
+<circle cx="195.3" cy="737.5" r="3.2" fill="#cf222e" class="f" style="animation-delay:8.61s"/>
+<circle cx="99.2" cy="777.1" r="3.2" fill="#cf222e" class="f" style="animation-delay:8.64s"/>
+<circle cx="260.1" cy="719.1" r="3.2" fill="#1a7f37" class="f" style="animation-delay:8.68s"/>
+<circle cx="244.0" cy="738.9" r="3.2" fill="#1a7f37" class="f" style="animation-delay:8.71s"/>
+<circle cx="371.6" cy="719.8" r="3.2" fill="#1a7f37" class="f" style="animation-delay:8.75s"/>
+<circle cx="334.0" cy="721.3" r="3.2" fill="#1a7f37" class="f" style="animation-delay:8.79s"/>
+<circle cx="105.7" cy="778.7" r="3.2" fill="#cf222e" class="f" style="animation-delay:8.82s"/>
+<circle cx="158.2" cy="746.3" r="3.2" fill="#cf222e" class="f" style="animation-delay:8.86s"/>
+<circle cx="117.4" cy="762.5" r="3.2" fill="#cf222e" class="f" style="animation-delay:8.89s"/>
+<circle cx="263.8" cy="735.0" r="3.2" fill="#1a7f37" class="f" style="animation-delay:8.93s"/>
+<circle cx="234.7" cy="750.7" r="3.2" fill="#1a7f37" class="f" style="animation-delay:8.96s"/>
+<circle cx="78.6" cy="782.4" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.00s"/>
+<circle cx="277.1" cy="730.4" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.03s"/>
+<circle cx="160.0" cy="752.6" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.07s"/>
+<circle cx="204.4" cy="750.8" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.10s"/>
+<circle cx="313.5" cy="714.1" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.13s"/>
+<circle cx="137.6" cy="758.1" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.17s"/>
+<circle cx="227.5" cy="728.7" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.21s"/>
+<circle cx="292.7" cy="730.9" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.24s"/>
+<circle cx="372.9" cy="717.4" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.28s"/>
+<circle cx="193.2" cy="740.0" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.31s"/>
+<circle cx="108.2" cy="767.3" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.35s"/>
+<circle cx="72.1" cy="770.4" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.38s"/>
+<circle cx="304.0" cy="720.0" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.42s"/>
+<circle cx="339.4" cy="719.4" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.45s"/>
+<circle cx="281.8" cy="724.4" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.49s"/>
+<circle cx="244.9" cy="736.9" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.52s"/>
+<circle cx="328.1" cy="703.6" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.55s"/>
+<circle cx="211.1" cy="738.6" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.59s"/>
+<circle cx="79.0" cy="767.8" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.62s"/>
+<circle cx="266.4" cy="716.4" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.66s"/>
+<circle cx="322.3" cy="724.2" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.70s"/>
+<circle cx="182.9" cy="745.0" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.73s"/>
+<circle cx="66.8" cy="777.6" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.77s"/>
+<circle cx="113.3" cy="777.0" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.80s"/>
+<circle cx="78.4" cy="766.0" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.84s"/>
+<circle cx="100.9" cy="776.0" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.87s"/>
+<circle cx="184.5" cy="738.7" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.91s"/>
+<circle cx="85.4" cy="773.7" r="3.2" fill="#cf222e" class="f" style="animation-delay:9.94s"/>
+<circle cx="235.2" cy="726.7" r="3.2" fill="#1a7f37" class="f" style="animation-delay:9.98s"/>
+<g class="f" style="animation-delay:10.10s"><path d="M199 688V800" stroke="#9a6700" stroke-dasharray="4 3"/>
+<text x="203" y="814" fill="#9a6700">τ</text></g>
+<text x="20" y="846" fill="#59636e" xml:space="preserve" class="f" style="animation-delay:10.40s"># AI-first, not AI-authoritative</text>
+<text x="20" y="866" fill="#cf222e" xml:space="preserve" class="f" style="animation-delay:10.70s">conf &lt; τ    → abstain → human</text>
+<text x="20" y="886" fill="#9a6700" xml:space="preserve" class="f" style="animation-delay:11.00s">rules fail  → reject</text>
+<text x="20" y="906" fill="#1a7f37" xml:space="preserve" class="f" style="animation-delay:11.30s">else        → publish + trace</text>
+<text x="20" y="926" fill="#8250df" xml:space="preserve" class="f" style="animation-delay:11.60s">new model   → eval vs ground truth</text>
+<text x="14" y="960"><tspan fill="#1a7f37">jose@raspberrypi</tspan><tspan fill="#1f2328">:</tspan><tspan fill="#0969da">~</tspan><tspan fill="#1f2328"> $ gpioget open_to_work</tspan></text>
+<rect class="cv" x="12" y="946" width="386" height="19" fill="#ffffff" style="animation-delay:12.00s"/>
+<g class="f" style="animation-delay:13.00s"><text x="14" y="980" xml:space="preserve"><tspan fill="#1f2328">"open_to_work"=</tspan><tspan fill="#1a7f37">active</tspan><tspan fill="#59636e">   # CR · MX · remote </tspan><tspan class="bc" fill="#1f2328">█</tspan></text></g>
 </g>
-<rect x="0.5" y="0.5" width="399" height="979" rx="12" fill="none" stroke="#d0d7de"/>
+<rect x="0.5" y="0.5" width="399" height="999" rx="12" fill="none" stroke="#d0d7de"/>
 </svg>

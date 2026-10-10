@@ -26,12 +26,13 @@ PINMAP = [
     ("GPIO3", 5, "SQL Server · T-SQL", "core"),
     ("GPIO4", 7, "OnBase Workflow (cert.)", "ai"),
     ("GPIO17", 11, "VLM · OCR / IDP", "ai"),
-    ("GPIO27", 13, "Ollama · telemetry", "ai"),
+    ("GPIO27", 13, "vLLM · telemetry", "ai"),
     ("GPIO22", 15, "Python · data analysis", "inf"),
     ("GPIO10", 19, "Java · Spring Boot", "core"),
     ("GPIO9", 21, "AWS GPU · CUDA · Linux", "inf"),
     ("GPIO11", 23, "Arduino · micro:bit", "mk"),
     ("GPIO5", 29, "Embedded Systems Tech", "mk"),
+    ("GPIO6", 31, "Claude Code · Codex", "ai"),
 ]
 
 POLICY = [
@@ -109,7 +110,7 @@ WIDE = Layout("wide", 680, 636, 840, 11, 20, 0, 50, 330, 410, 602,
               "python3 gate_stats.py --source telemetry.db",
               "python3 abstain.py --plot confidence --synthetic",
               "# CR · MX · international remote")
-NARROW = Layout("narrow", 400, 980, 400, 12, 14, -6, 50, 548, 648, 940,
+NARROW = Layout("narrow", 400, 1000, 400, 12, 14, -6, 50, 568, 668, 960,
                 "python3 gate_stats.py",
                 "python3 abstain.py --synthetic",
                 "# CR · MX · remote")
@@ -183,7 +184,7 @@ def board(t: Theme, lo: Layout) -> str:
 
 def pin_table(t: Theme, lo: Layout) -> str:
     if lo is WIDE:
-        x, y0, step, dot_x, label_x = 404, 82, 21, 490, 501
+        x, y0, step, dot_x, label_x = 404, 82, 20, 490, 501
     else:
         x, y0, step, dot_x, label_x = 20, 334, 20, 108, 118
     rows = []
@@ -205,12 +206,12 @@ def gate_stats(t: Theme, lo: Layout) -> str:
     if lo is WIDE:
         labels = (
             f'<text x="{x}" y="{bar_y + 34}" fill="{t.green}">~40% resolved by gate + cache</text>'
-            f'<text x="{x + bar_w}" y="{bar_y + 34}" text-anchor="end" fill="{t.purple}">rest → VLM · Ollama on L4</text>'
+            f'<text x="{x + bar_w}" y="{bar_y + 34}" text-anchor="end" fill="{t.purple}">rest → VLM · vLLM on A10G</text>'
         )
     else:
         labels = (
             f'<text x="{x}" y="{bar_y + 34}" fill="{t.green}">~40% resolved by gate + cache (no model)</text>'
-            f'<text x="{x}" y="{bar_y + 52}" fill="{t.purple}">rest → VLM · Ollama on NVIDIA L4</text>'
+            f'<text x="{x}" y="{bar_y + 52}" fill="{t.purple}">rest → VLM · vLLM on NVIDIA A10G</text>'
         )
     return f"""<g {fade(5.9)}>
 <rect x="{x}" y="{bar_y}" width="{bar_w}" height="16" rx="3" fill="{t.track}"/>

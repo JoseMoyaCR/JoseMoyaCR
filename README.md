@@ -2,7 +2,7 @@
   <source media="(max-width: 700px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JoseMoyaCR/JoseMoyaCR/main/assets/rpi-narrow-dark.svg">
   <source media="(max-width: 700px)" srcset="https://raw.githubusercontent.com/JoseMoyaCR/JoseMoyaCR/main/assets/rpi-narrow-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JoseMoyaCR/JoseMoyaCR/main/assets/rpi-wide-dark.svg">
-  <img alt="Animated Raspberry Pi terminal: the GPIO header maps my stack (C#/.NET, SQL Server, OnBase, VLM/OCR, Ollama, Python, Java, AWS GPU, Arduino, micro:bit), then quality-gate stats, a confidence/abstention plot and open_to_work=active." src="https://raw.githubusercontent.com/JoseMoyaCR/JoseMoyaCR/main/assets/rpi-wide-light.svg">
+  <img alt="Animated Raspberry Pi terminal: the GPIO header maps my stack (C#/.NET, SQL Server, OnBase, VLM/OCR, vLLM, Python, Java, AWS GPU, Arduino, micro:bit, Claude Code/Codex), then quality-gate stats, a confidence/abstention plot and open_to_work=active." src="https://raw.githubusercontent.com/JoseMoyaCR/JoseMoyaCR/main/assets/rpi-wide-light.svg">
 </picture>
 
 <sub>GPIO pins → my stack · bar → share of document requests my quality gate and cache resolve without calling the model (production telemetry) · scatter → how the platform abstains on low-confidence extractions (synthetic data, real policy) · <a href="https://github.com/JoseMoyaCR/JoseMoyaCR/blob/main/scripts/gen_profile_svg.py">generated with Python</a></sub>
@@ -27,10 +27,15 @@ every published value.
 
 ### What I do
 
-- **AI architecture in production** — self-hosted VLM serving (Ollama on AWS
-  GPU), per-invocation inference telemetry, content-hash caching and quality
-  gates that resolve ~40% of requests without invoking the model, and
-  model-replacement evaluation against verified ground truth.
+- **AI architecture in production** — self-hosted VLM serving (vLLM on a
+  private AWS GPU node, NVIDIA A10G), per-invocation inference telemetry,
+  content-hash caching and quality gates that resolve ~40% of requests without
+  invoking the model, and model-replacement evaluation against verified ground
+  truth.
+- **Agentic engineering** — Claude Code and OpenAI Codex as an engineered daily
+  workflow: versioned instruction files (CLAUDE.md / AGENTS.md), hooks and
+  permissions, a reusable skills library, and plan → act → verify loops with
+  explicit stop criteria — AI-assisted delivery that is verified, not trusted.
 - **Document-centric automation** with OnBase (Hyland Certified Workflow
   Engineer) — credit-origination workflows for two of Costa Rica's largest
   financial cooperatives, Factura Electrónica 4.0 compliance, and integration
@@ -44,18 +49,19 @@ every published value.
 ### Stack I reach for
 
 - **Backend:** C#, .NET 10 / .NET Core, ASP.NET MVC, Java, Spring Boot, REST APIs, Dapper, Entity Framework
-- **AI & document intelligence:** VLM integration, OCR / IDP / ADE, self-hosted serving (Ollama), prompt versioning, inference telemetry, quality gating, human-in-the-loop design
+- **AI & document intelligence:** VLM integration, OCR / IDP / ADE, self-hosted serving (vLLM, Ollama), prompt versioning, inference telemetry, quality gating, human-in-the-loop design
+- **Agentic engineering:** Claude Code, OpenAI Codex, CLAUDE.md / AGENTS.md, hooks and permissions, skills libraries, plan → act → verify loops, evaluation baselines
 - **Data:** SQL Server, T-SQL, query optimization, telemetry schema design
-- **Cloud & infra:** AWS EC2 (GPU g6 / NVIDIA L4), VPC, CUDA, Linux (Ubuntu Server)
+- **Cloud & infra:** AWS EC2 GPU (g5 / NVIDIA A10G, g6 / NVIDIA L4), private VPC, CUDA, Linux (Ubuntu Server)
 - **Frontend:** JavaScript, TypeScript, jQuery, Kendo UI, Bootstrap
 - **Automation & ECM:** OnBase Workflow (Certified), UiPath, SignalR, Digital Signature (BCCR)
 - **Practices:** Scrum (CSM), code review, regression & mutation testing, distributed teams
 
 ### Currently exploring
 
-- Serving-engine alternatives (vLLM), quantization trade-offs, and smaller
-  specialized OCR models — each with documented go/no-go criteria before any of
-  them touches production
+- Inference optimizations on top of vLLM — speculative decoding, LoRA / QLoRA
+  fine-tuning, quantization trade-offs, and roofline modeling — each with
+  documented go/no-go criteria before any of it touches production
 - Embedded systems and IoT (certified Embedded Systems Technician)
 - Sharpening my technical English for nearshore collaboration
 
@@ -72,7 +78,8 @@ every published value.
 - 🌎 **International** — fully remote contracts with nearshore consultancies or
   financial institutions; full working overlap with all US and Canadian time
   zones.
-  → [CV — English / International (PDF)](https://github.com/JoseMoyaCR/JoseMoyaCR/blob/main/Jose_Hernandez_Moya_CV_MX.pdf)
+  → [CV — International · AI & LLM systems (PDF)](https://github.com/JoseMoyaCR/JoseMoyaCR/blob/main/Jose_Hernandez_Moya_CV_EN.pdf)
+  · [CV — Full Stack .NET (PDF)](https://github.com/JoseMoyaCR/JoseMoyaCR/blob/main/Jose_Hernandez_Moya_FullStack_NET_EN.pdf)
 
 _Recruiters en Costa Rica y México: con gusto conversamos en español._
 
